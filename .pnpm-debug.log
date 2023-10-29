@@ -1,4 +1,7 @@
-{
+{npm i -g pnpm
+npm i -g tsx
+pnpm i
+tsx .
   "0 debug pnpm:scope": {
     "selected": 1
   },
@@ -17,6 +20,5 @@
       "code": "ELIFECYCLE",
       "stack": "pnpm: discord-server-cloner-2@2.0 start: `tsx src/index`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:93448:22)\n    at ChildProcess.emit (node:events:513:28)\n    at maybeClose (node:internal/child_process:1093:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)"
     }
-  },
-  "2 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?"
+  }
 }
