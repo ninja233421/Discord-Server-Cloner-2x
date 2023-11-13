@@ -1,1 +1,1457 @@
-
+{
+    "name": "Vincz Boosts 🚀",
+    "verificationLevel": "LOW",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "ONLY_MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "━━━━━━━@ Server Stats━━━━━━━━",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "1050624"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "┏┃💎┃Members: 1328",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "━━━━━━━@ Server Stats━━━━━━━━",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "1050624"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "┠┃💎┃Bots: 22",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "━━━━━━━@ Server Stats━━━━━━━━",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "1050624"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "┗┃💎┃Boosts: 67",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "━━━━━━━@ Server Stats━━━━━━━━",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "1050624"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "━━━━━━━━@ Welcome━━━━━━━",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "103080265728"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┏┃👑┃verify",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━@ Welcome━━━━━━━",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "[Member]",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "103080265728"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┠┃👋┃welcome",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━@ Welcome━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "1050624"
+                            },
+                            {
+                                "roleName": "[Member]",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┗┃🔑┃backup",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━@ Welcome━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "103080265728"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "━━━━━━━@ important━━━━━━━━",
+                "permissions": [
+                    {
+                        "roleName": "[Member]",
+                        "allow": "1024",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "103079216128"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┏┃📢┃announcements",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━@ important━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "[Member]",
+                                "allow": "1024",
+                                "deny": "64"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "64",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┠┃📋┃restock",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━@ important━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "[Member]",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┠┃✨┃boosters",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━@ important━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "[Member]",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┠┃🚨┃tos",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━@ important━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1051648"
+                            },
+                            {
+                                "roleName": "[Member]",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┗┃🎁┃giveaways",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━@ important━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Invite Tracker",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "[Member]",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "━━━━━━━━━@ Main━━━━━━━━━━━",
+                "permissions": [
+                    {
+                        "roleName": "[Member]",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┏┃💬┃chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ Main━━━━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "[Member]",
+                                "allow": "3072",
+                                "deny": "2147614720"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┠┃🤖┃bot-cmds",
+                        "nsfw": false,
+                        "rateLimitPerUser": 300,
+                        "parent": "━━━━━━━━━@ Main━━━━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "[Member]",
+                                "allow": "3072",
+                                "deny": "131072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┠┃⭐┃vouches",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ Main━━━━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "[Customer]",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "[Member]",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "[Giveaway Winner]",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┠┃🎫┃tickets",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ Main━━━━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "[Member]",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "[Bots]",
+                                "allow": "70368744178688",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┗┃💳┃payments",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ Main━━━━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "[Member]",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "[Products]",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "3072"
+                    },
+                    {
+                        "roleName": "[Member]",
+                        "allow": "1024",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "[Customer]",
+                        "allow": "1024",
+                        "deny": "2048"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┏┃🚀┃server-boosts",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[Products]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "[Member]",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┠┃🚀┃nitro-tokens",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[Products]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "[Member]",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "[Customer]",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┗┃🚀┃business-package",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "[Products]",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "[Customer]",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "[Member]",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "━━━━━━━━━@ Tools━━━━━━━━━━",
+                "permissions": [
+                    {
+                        "roleName": "[Member]",
+                        "allow": "1049600",
+                        "deny": "2048"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┏┃🛒┃boost-tool",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ Tools━━━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "[Member]",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┠┃🛒┃boost-bot",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ Tools━━━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "[Member]",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┗┃🛒┃rotator-tool",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ Tools━━━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "[Member]",
+                                "allow": "1049600",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "━━━━━━━━━@ Slots━━━━━━━━━━",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "3072"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┏┃💰┃buy-a-slot",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ Slots━━━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "[Member]",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┗┃🛒┃flixrr",
+                        "nsfw": false,
+                        "rateLimitPerUser": 21600,
+                        "parent": "━━━━━━━━━@ Slots━━━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "━━━━━━━━━@ logs━━━━━━━━━━━",
+                "permissions": [
+                    {
+                        "roleName": "[Administrator]",
+                        "allow": "1049600",
+                        "deny": "8192"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┏┃📁┃verify-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ logs━━━━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "[Administrator]",
+                                "allow": "1049600",
+                                "deny": "8192"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┠┃📁┃join-ticket-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ logs━━━━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "[Administrator]",
+                                "allow": "1049600",
+                                "deny": "8192"
+                            },
+                            {
+                                "roleName": "Invite Tracker",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┠┃📁┃cmd-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ logs━━━━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "[Administrator]",
+                                "allow": "1049600",
+                                "deny": "8192"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┠┃📁┃raid-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ logs━━━━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "[Administrator]",
+                                "allow": "1049600",
+                                "deny": "8192"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┗┃📁┃boost-logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ logs━━━━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "[Administrator]",
+                                "allow": "1049600",
+                                "deny": "8192"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "bio",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ logs━━━━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "[Administrator]",
+                                "allow": "1049600",
+                                "deny": "8192"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "sellauths-log",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ logs━━━━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "[Administrator]",
+                                "allow": "1049600",
+                                "deny": "8192"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "━━━━━━━━━@ Tickets━━━━━━━━━━━",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-duda61",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ Tickets━━━━━━━━━━━",
+                        "topic": "Creator: duda.61 | Category: Discord Boost Bot",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": ".",
+                                "allow": "117760",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-braconman",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ Tickets━━━━━━━━━━━",
+                        "topic": "Creator: braconman | Category: Discord Boost Tool",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": ".",
+                                "allow": "117760",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-pecinha_do_mau",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ Tickets━━━━━━━━━━━",
+                        "topic": "Creator: pecinha_do_mau | Category: Discord Boost Tool",
+                        "permissions": [
+                            {
+                                "roleName": ".",
+                                "allow": "117760",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-mutilateher",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ Tickets━━━━━━━━━━━",
+                        "topic": "Creator: mutilateher | Category: Discord Boost Bot",
+                        "permissions": [
+                            {
+                                "roleName": ".",
+                                "allow": "117760",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-t_o_n_k_a",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ Tickets━━━━━━━━━━━",
+                        "topic": "Creator: t_o_n_k_a | Category: Discord Boost Tool",
+                        "permissions": [
+                            {
+                                "roleName": ".",
+                                "allow": "117760",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-zoulouuu",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ Tickets━━━━━━━━━━━",
+                        "topic": "Creator: zoulouuu | Category: Discord Boost Tool",
+                        "permissions": [
+                            {
+                                "roleName": ".",
+                                "allow": "117760",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-dannyboai",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ Tickets━━━━━━━━━━━",
+                        "topic": "Creator: dannyboai | Category: Server Boosts",
+                        "permissions": [
+                            {
+                                "roleName": ".",
+                                "allow": "117760",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-typedef0x",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ Tickets━━━━━━━━━━━",
+                        "topic": "Creator: typedef0x | Category: Server Boosts",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": ".",
+                                "allow": "117760",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-_sneax_",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ Tickets━━━━━━━━━━━",
+                        "topic": "Creator: _sneax_ | Category: Nitro Tokens",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": ".",
+                                "allow": "117760",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-bubbifn",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ Tickets━━━━━━━━━━━",
+                        "topic": "Creator: bubbifn | Category: Server Boosts",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": ".",
+                                "allow": "117760",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-nx9573",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ Tickets━━━━━━━━━━━",
+                        "topic": "Creator: nx9573 | Category: Nitro Tokens",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": ".",
+                                "allow": "117760",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "ticket-mabuu",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━━━@ Tickets━━━━━━━━━━━",
+                        "topic": "Creator: Mabuu#5605 | Category: Discord Boost Bot",
+                        "permissions": [
+                            {
+                                "roleName": ".",
+                                "allow": "117760",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "━━━━━━━@ Boost Bot Updates━━━━━━━━━",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "[Boost Bot]",
+                        "allow": "1024",
+                        "deny": "2048"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┏┃📋┃updates",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━@ Boost Bot Updates━━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "[Boost Bot]",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "┗┃📋┃v2-updates",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "━━━━━━━@ Boost Bot Updates━━━━━━━━━",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Boost bot v2",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "[Boost Bot]",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "GUILD_TEXT",
+                "name": "⌈🛒⌋・boost-bot",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "[Member]",
+                        "allow": "1048576",
+                        "deny": "3072"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            },
+            {
+                "type": "GUILD_TEXT",
+                "name": "moderator-only",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "messages": [],
+                "isNews": false,
+                "threads": []
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": ".",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 43,
+            "isEveryone": false
+        },
+        {
+            "name": "Vincz Bots",
+            "color": "#a10cf5",
+            "hoist": true,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 38,
+            "isEveryone": false
+        },
+        {
+            "name": "[Owner]",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": "1048",
+            "mentionable": false,
+            "position": 37,
+            "isEveryone": false
+        },
+        {
+            "name": "Server Booster",
+            "color": "#ff00df",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 36,
+            "isEveryone": false
+        },
+        {
+            "name": "[Regular Bots]",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 35,
+            "isEveryone": false
+        },
+        {
+            "name": "[Administrator]",
+            "color": "#6dcfec",
+            "hoist": true,
+            "permissions": "28582469959639",
+            "mentionable": false,
+            "position": 33,
+            "isEveryone": false
+        },
+        {
+            "name": "[Moderator]",
+            "color": "#7477df",
+            "hoist": true,
+            "permissions": "2063974395467",
+            "mentionable": false,
+            "position": 32,
+            "isEveryone": false
+        },
+        {
+            "name": "[Exchanger]",
+            "color": "#9b59b6",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 31,
+            "isEveryone": false
+        },
+        {
+            "name": "[Elite customer $500+]",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 29,
+            "isEveryone": false
+        },
+        {
+            "name": "[Elite customer $300+]",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 28,
+            "isEveryone": false
+        },
+        {
+            "name": "[Vip customer $100+]",
+            "color": "#1abc9c",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 27,
+            "isEveryone": false
+        },
+        {
+            "name": "[Boost Bot]",
+            "color": "#e91e63",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 26,
+            "isEveryone": false
+        },
+        {
+            "name": "[Boost Tool]",
+            "color": "#71368a",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 25,
+            "isEveryone": false
+        },
+        {
+            "name": "[Rotator Tool]",
+            "color": "#e74c3c",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 24,
+            "isEveryone": false
+        },
+        {
+            "name": "Friends",
+            "color": "#9b59b6",
+            "hoist": true,
+            "permissions": "31858024238657",
+            "mentionable": false,
+            "position": 23,
+            "isEveryone": false
+        },
+        {
+            "name": "[Loyal Customers]",
+            "color": "#f1c40f",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 22,
+            "isEveryone": false
+        },
+        {
+            "name": "[Customer]",
+            "color": "#992d22",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 21,
+            "isEveryone": false
+        },
+        {
+            "name": "[Giveaway Winner]",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "[Member]",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": "1024",
+            "mentionable": false,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "[Bots]",
+            "color": "#a10cf5",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "Boost bot v2",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 2,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "532857302142465",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1699872052867,
+    "guildID": "1134536650899324948",
+    "id": "1173573191826800640",
+    "iconURL": "https://cdn.discordapp.com/icons/1134536650899324948/a_aa7ecd84664c2a527e95c41c3d2e1d08.gif",
+    "bannerURL": "https://cdn.discordapp.com/banners/1134536650899324948/7f1d726e09eff5eb88e7c1b5f0e07a51.webp"
+}
